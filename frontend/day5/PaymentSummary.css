@@ -1,0 +1,73 @@
+/* PaymentSummary.css */
+
+#payment-det {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 5vh;
+  }
+  
+  #title-pay {
+    color: #5d5fe7;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .payment-summary-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+  }
+  
+  .summary-details {
+    margin-bottom: 20px;
+  }
+  
+  .summary-details > div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .field-name {
+    font-weight: bold;
+    margin-right: 5vw;
+    width:120px;
+    text-align: justify;
+  }
+  
+  .field-value {
+    flex: 1;
+    margin-left:2vh;
+  }
+  
+  .addons-section {
+    margin-bottom: 20px;
+  }
+  
+  .addons-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .total-price {
+    margin-bottom: 20px;
+  }
+  
+  .pay-now-button {
+    padding: 10px 40px;
+    background-color:#5d5fe7;;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .pay-now-button:hover {
+    background-color: #5d5fe7;
+  }
+  

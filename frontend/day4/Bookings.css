@@ -1,0 +1,46 @@
+/* EventCards.css */
+
+#parent-con{
+    margin-top: 12vh;
+    height:100vh;
+}
+#event-title{
+    color:#5d5fe7;
+    font-size: 2.5rem;;
+    margin-bottom: 4vh;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.event-cards-container {
+    
+    display: flex;
+    justify-content: space-between;
+    padding:0 2vw;
+  }
+  
+  .event-card {
+    background-color:white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+  }
+  
+  .event-card h3 {
+    color: #5d5fe7;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .event-details p {
+    margin-bottom: 10px;
+  }
+  
+  .event-card.active {
+    border: 2px solid rgb(184, 181, 181);
+  }
+  
+  .event-card.closed {
+    border: 2px solid rgb(184, 181, 181);
+  }
+  

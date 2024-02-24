@@ -1,0 +1,68 @@
+    .user-profile {
+        max-width: 450px;
+        margin: 15vh auto;
+        padding: 20px;
+        background-color:#f5f6ff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .user-profile h2 {
+        margin-top: 1vh;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    #pform{
+        margin-top:5vh;
+        padding:2vh;
+    }
+    .form-group {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+    }
+    #user-profile-con{
+        display: flex;
+        justify-content: center;
+    }
+    #user-profile-con img{
+        width: 150px;
+        height:150px;
+    }
+    .form-group label {
+        width: 120px; 
+        margin-right: 10px; 
+        font-weight: bold;
+    }
+    
+    input[type='text'],
+    input[type='email'] {
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    input:focus{
+        border:none;
+        background-color: rgba(0, 119, 255, 0.063);
+    }
+    .user-profile .error {
+        color: red;
+        margin-top:2vh;
+    }
+    
+    .profile-button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        background-color: #5d5fe7;
+        color: #fff;
+        cursor: pointer;
+    }
+    #button{
+        display: flex;
+        justify-content:end;
+    }
+    .profile-button:hover {
+        background-color: #5d5fe7;
+    }
+    
